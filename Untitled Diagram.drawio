@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-02T17:21:18.849Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="ZagDWXKb-5Ir38Mk8Xec" version="13.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-02T17:21:49.206Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="rhAP0KSXDEA6S90LCA-M" version="13.7.6" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -19,10 +19,10 @@
         <mxCell id="EQfEUF1p5F015XXyak6D-30" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="EQfEUF1p5F015XXyak6D-23" vertex="1">
           <mxGeometry y="60" width="270" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="EQfEUF1p5F015XXyak6D-31" value="fk" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="EQfEUF1p5F015XXyak6D-30" vertex="1">
+        <mxCell id="EQfEUF1p5F015XXyak6D-31" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="EQfEUF1p5F015XXyak6D-30" vertex="1">
           <mxGeometry width="30" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="EQfEUF1p5F015XXyak6D-32" value="university_id&#xa;username VARCHAR(20) NOT NULL&#xa;cellphone_number vachar(20) NOT NULL&#xa;university_id int (10) NOT NULL&#xa;gender varchar(10) NOT NULL&#xa;email varchar(30) NOT NULL&#xa;password varchar (30) NOT NULL&#xa;&#xa;&#xa;&#xa;&#xa;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="EQfEUF1p5F015XXyak6D-30" vertex="1">
+        <mxCell id="EQfEUF1p5F015XXyak6D-32" value="university_id&#xa;&#xa;username VARCHAR(20) NOT NULL&#xa;cellphone_number vachar(20) NOT NULL&#xa;university_id int (10) NOT NULL&#xa;gender varchar(10) NOT NULL&#xa;email varchar(30) NOT NULL&#xa;password varchar (30) NOT NULL&#xa;&#xa;&#xa;&#xa;&#xa;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="EQfEUF1p5F015XXyak6D-30" vertex="1">
           <mxGeometry x="30" width="240" height="100" as="geometry" />
         </mxCell>
         <mxCell id="EQfEUF1p5F015XXyak6D-54" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;" parent="1" source="EQfEUF1p5F015XXyak6D-20" target="EQfEUF1p5F015XXyak6D-23" edge="1">
@@ -111,6 +111,9 @@
         </mxCell>
         <mxCell id="YDE4dZeYNoiA2_BQrQlV-10" value=" (50) NOT NULL&#xa;type_car char(15) NOT NULL&#xa;ride_cost double NOT NULL&#xa;num_passengers int NOT NULL&#xa;availability ENUM(&quot;YES&quot;,&quot;NO&quot;)&#xa;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="YDE4dZeYNoiA2_BQrQlV-8">
           <mxGeometry x="30" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0LHgYcajdqst7iCxihsN-1" value="Fk" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="250" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
